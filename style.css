@@ -29,7 +29,11 @@ p.about-contact {
   color: black;
   font-weight: 500;
 }
-
+p.about-recipe{
+    font-family: Poppins;
+    color: rgb(32, 32, 32);
+    text-align: center;
+}
 .Orange-color {
   color: rgba(248, 104, 52, 0.973);
 }
@@ -60,4 +64,30 @@ p.about-contact {
   background-image: url(7.png);
   background-repeat: no-repeat;
   background-color: rgb(228, 204, 172);
+}
+.recipe-alignment{
+    font-family: Poppins;
+    text-align: center;
+}
+.recipe-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+}
+#Chicken-recipes{
+    display: flex;
+    border-left: 7px solid;
+  border-image: linear-gradient(gray, black);
+  
+}
+.recipe-item half-width img{width: 80%;
+    padding-top: 1%;
+
+}
+
+
+
 }

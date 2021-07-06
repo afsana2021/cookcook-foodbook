@@ -6,11 +6,12 @@ body {
 h1 {
   font-size: 50px;
   color: rgb(56, 55, 55);
-  font-weight: bold;
+  font-weight: bolder;
   margin: auto;
 }
 h2 {
   font-size: 40px;
+  color: rgb(56, 55, 55);
 }
 
 h3 {
@@ -22,6 +23,11 @@ p {
   font-weight: bold;
   font-family: Poppins;
   margin-bottom: 60px;
+}
+p.about-contact {
+  font-family: sans-serif;
+  color: black;
+  font-weight: 500;
 }
 
 .Orange-color {
@@ -49,4 +55,9 @@ p {
   color: white;
   font-weight: 500;
   border-radius: 40px;
+}
+.About {
+  background-image: url(7.png);
+  background-repeat: no-repeat;
+  background-color: rgb(228, 204, 172);
 }

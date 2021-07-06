@@ -5,37 +5,46 @@ body {
 
 h1 {
   font-size: 50px;
-  color: rgb(70, 46, 46);
+  color: rgb(56, 55, 55);
+  font-weight: bold;
+  margin: auto;
 }
 h2 {
   font-size: 40px;
 }
 
 h3 {
-  color: rgb(13, 13, 65);
+  color: rgb(39, 39, 41);
 }
 p {
-  color: black;
-  font-family: sans-serif;
+  color: rgb(122, 118, 118);
+  font-size: medium;
+  font-weight: bold;
+  font-family: Poppins;
+  margin-bottom: 60px;
 }
 
 .Orange-color {
-  color: orange;
+  color: rgba(248, 104, 52, 0.973);
 }
 .flexible-container {
   display: flex;
   margin-bottom: 150px;
-  margin-top: 100px;
 }
 .half-width {
   width: 50%;
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
-
+.half-width img {
+  width: 80%;
+  padding-top: 1%;
+}
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(orange, tomato);
+  background-image: linear-gradient(orange, red);
   padding: 15px 40px;
   color: white;
   font-weight: 500;

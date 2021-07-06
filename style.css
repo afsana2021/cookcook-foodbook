@@ -102,9 +102,23 @@ p.about-recipe {
 .Black-color {
   text-align: center;
 }
-footer h2,
-h3 {
-  text-align: center;
-  color: white;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: black;
+  color: white;
+  text-align: center;
+}
+p.footer-size {
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+p.footer {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-top: 10px;
+  color: white;
 }
